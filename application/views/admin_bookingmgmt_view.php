@@ -1,5 +1,5 @@
  <?php  
- $connect = mysqli_connect("ddacdatabase.mysql.database.azure.com", "ddacadmin@ddacdatabase", "admin@11", "ddaccrz"); 
+ $connect = mysqli_connect("ddacdatabase.mysql.database.azure.com", "ddacadmin@ddacdatabase", "admin@11", "ddacdb"); 
  $sql = "SELECT * FROM booking";  
  $result = mysqli_query($connect, $sql);
 
