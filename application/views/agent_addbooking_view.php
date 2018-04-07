@@ -1,7 +1,7 @@
  <?php  
  $connect = mysqli_connect("ddacdatabase.mysql.database.azure.com", "ddacadmin@ddacdatabase", "admin@11", "ddacdb");
  //$sql = "SELECT * FROM booking";
- $sql = "SELECT * FROM booking INNER JOIN agent ON booking.register_Agent = agent.Agent_Name";
+ $sql = "SELECT * FROM booking INNER JOIN agent ON booking.register_Agent = agent.agent_Name";
  $result = mysqli_query($connect, $sql);
  ?>
  
