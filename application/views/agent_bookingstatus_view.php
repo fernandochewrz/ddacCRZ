@@ -98,6 +98,7 @@
 				  <th>Booking ID</th>
 				  <th>Customer Name</th>
 				  <th>Status</th>
+				  <th>Fulfilled by</th>
 				</tr>
                 </thead>
                 <tbody>
@@ -108,6 +109,7 @@
 				  <td><?php echo $row["booking_ID"]; ?></td>
 				  <td><?php echo $row["customer_Name"]; ?></td>
 				  <td><?php echo $row["status"]; ?></td>
+				  <td><?php echo $row["register_Agent"]; ?></td>
 				</tr>
 				<?php }
 					}else{?>
